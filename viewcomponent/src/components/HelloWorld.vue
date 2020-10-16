@@ -80,6 +80,7 @@
         </a>
       </li>
     </ul>
+    <Loading></Loading>
   </div>
 </template>
 
