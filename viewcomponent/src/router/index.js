@@ -7,9 +7,13 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/',
+      path: '/a',
       name: 'HelloWorld',
       component: HelloWorld
-    }
+    },
+    {
+      path: '/cascader',
+      component: (resolve) => require(['./routers/cascader.vue'], resolve)
+  },
   ]
 })

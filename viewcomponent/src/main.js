@@ -7,7 +7,7 @@ import router from './router'
 Vue.config.productionTip = false
 
 import Loading from './components/loading'
-import * as iView from './index';
+import  iView from './index';
 import locale from './locale/lang/zh-CN';
 // 这时需要 use(Loading)，如果不写 Vue.use()的话，浏览器会报错，大家可以试一下
 Vue.use(iView,{
